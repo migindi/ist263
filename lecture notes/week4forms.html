@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"
+        <title>Week 4 Forms</title>
+    </head>
+    <body>
+        <!-- action says what wepage will process form post says how data will be sent-->
+        <form action="" method="post">
+            <!-- label tells user what to enter for links the label to the form element value in for must match balue in input id-->
+<label for="fullname">Full Name</label><br>
+<input type="text" id="fullname" name="fullname">
+
+<label for="complaint">Complaints</label><br> 
+<textarea name="complant" id="complaint"></textarea><br>
+<!-- radio buttons are linked with the same name value id value must be unique-->
+<label>important</label>
+<input type="radio" name="important" id="important1"<br>
+<label>not important</label>
+<input type="radio" name="important" id="important2"<br>
+
+<p> what contact methods work?</p>
+<label for="method1">phone</label>
+<input type="checkbox" id="method1" name="method1">
+<label for="method2">email</label1>
+<input type="checkbox" id="method2" name="method2"<br> 
+
+<label for="time"> What time do you want to be contacted?</label>
+<select id="time" name="time">
+    <option value="morning">morning</option>
+    <option value="afternoon">afternoon</option>
+    <option value="evening">evening</option>
+</select>
+
+<input type="submit" value="send complaint"> 
+
+        </form>
+    </body>
+</html>
