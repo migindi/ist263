@@ -16,4 +16,7 @@ nav > a {
   }
   nav a{color:black}
 
-  nav a:hover{background-color: cadetblue;}
+  nav a:hover{background-color: cadetblue;} 
+
+  nav a{padding: 10px;}
+  nav{margin-bottom: 30px;}
