@@ -8,12 +8,8 @@ p {color:#225522;}
     color: #f04d5e
     font-weight: bold
 }
-nav a {
-    border-right: solid 1px #eff0f1;
-  }
-  nav > a:last-of-type {
-    border-right: none;
-  }
+nav a {border-right: solid 1px #eff0f1;}
+  nav a:last-of-type {border-right: none;}
   nav a{color:black}
 
   nav a:hover{background: color #0abba0;} 
