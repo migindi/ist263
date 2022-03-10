@@ -8,3 +8,9 @@ p {color:green;}
     color: red
     font-weight: bold
 }
+nav > a {
+    border-right: solid 1px #eff0f1;
+  }
+  nav > a:last-of-type {
+    border-right: none;
+  }
