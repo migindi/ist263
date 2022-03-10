@@ -1,0 +1,10 @@
+body {
+    background-color: lightpink;
+}
+
+p {color:green;}
+
+.boldred{
+    color: red
+    font-weight: bold
+}
