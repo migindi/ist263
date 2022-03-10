@@ -1,11 +1,11 @@
 body {
-    background-color: lightpink;
+    background-color: #fcdcd4;
 }
 
-p {color:green;}
+p {color:#225522;}
 
 .boldred{
-    color: red
+    color: #f04d5e
     font-weight: bold
 }
 nav > a {
@@ -16,7 +16,7 @@ nav > a {
   }
   nav a{color:black}
 
-  nav a:hover{background-color: cadetblue;} 
+  nav a:hover{background: color #0abba0;} 
 
   nav a{padding: 10px;}
   nav{margin-bottom: 30px;}
