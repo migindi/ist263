@@ -1,0 +1,16 @@
+body {
+    background-color: #fcdcd4;
+}
+
+p {color:#225522;}
+
+.boldred{
+    color: #f04d5e
+    font-weight: bold}
+
+nav a {border-right: solid 1px #eff0f1;}
+  nav a:last-of-type {border-right: none;}
+  nav a{color:rgb(14, 7, 7)}
+  nav a:hover{background-color:#0abba0;} 
+  nav a{padding: 10px;}
+  nav{margin-bottom: 30px;}
