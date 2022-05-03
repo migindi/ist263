@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Question</title>
+    <script>
+        function Right () {
+            document.getElementById("rightanswer").innerHTML = "Good Job. False is correct"
+        }
+        function Wrong() {
+            document.getElementByID("wronganswer").innerHTML = "True is not correct"
+        }
+        function changeColor () {
+            document.getElementById("pagecolor").style.backgroundColor = document.getElementById("colorpicker").value;
+        }
+    </script>
+</head>
+<body id="pagecolor">
+    <form>
+        <input type="color" id="colorpicker" onchange="changeColor();">
+    </form>
+    <p>We are learning Python in IST 263</p>
+    <p id="wronganswer">True</p>
+    <p id="rightanswer" onclick="Right();">False</p>
+</body>
+</html>
